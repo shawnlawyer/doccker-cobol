@@ -1,0 +1,9 @@
+.git
+Dockerfile
+docker-compose.yml
+.DS_Store
+.gitignore
+README.md
+.env
+.bash_history
+

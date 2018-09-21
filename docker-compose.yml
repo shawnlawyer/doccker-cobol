@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+ app:
+   build: .
+   env_file: .env
+   #environment:
+     # overrides whatever is set in .env to use docker's postgres
+     #DB_HOST: database
+   volumes:
+     - .:/var/www/html
+
+ #database:
+   #image: postgres:10.1
+   #env_file: .env
+   #environment:
+     #LC_ALL: C.UTF-8
+   #ports:
+     #- "5432:5432"

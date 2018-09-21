@@ -1,0 +1,6 @@
+.env
+.bash_history
+*.DAT
+CobolContants
+.bash_history
+.DS_Store
